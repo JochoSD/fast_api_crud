@@ -2,6 +2,8 @@ from fastapi import FastAPI, Depends
 from typing import Union
 from routers.usuarios import rutas_usuarios
 from motor.motor_asyncio import AsyncIOMotorClient
+
+
 app = FastAPI()
 
 
